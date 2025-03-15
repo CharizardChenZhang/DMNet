@@ -5,7 +5,7 @@ PyTorch implementation of the paper:
 
 Chen Zhang, Ganzhangqin Yuan, Wenbing Tao*
 
-<img src="fig.jpg" alt="Figure 1" width="800"/>
+<img src="fig.jpg" alt="Figure 1" width="600"/>
 
 ## Setup  
 Python package requirements (other similar versions are also acceptable).  

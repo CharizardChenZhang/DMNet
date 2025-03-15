@@ -1,0 +1,18 @@
+epochs: 1000
+cuda: True
+use_sample_label: True
+pretrained: False
+train_name_file: "./train_name.txt"
+test_name_file: "./test_name.txt"
+val_name_file: "./val_name.txt"
+k_n: 32
+batch_size: 1
+num_workers: 4
+device_ids: [1]
+ref_num: 3
+weight_ratio: [0.9, 0.1, 1.0]
+data_root_dir: "../example/processed_data/"
+val_data_root_dir: "../example/processed_data/"
+experiment_dir: "../example/exp/"
+model_path: "model/model/model.pt"
+SummaryWriter_path: "log"

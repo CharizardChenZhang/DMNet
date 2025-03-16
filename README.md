@@ -27,6 +27,7 @@ Our network is only used to generate tetrahedral labels, so you need to compile 
 - Compile the executable program to process data.
 ```
 cd create_gt
+mkdir build
 cd build
 cmake ../
 make
@@ -34,6 +35,7 @@ make
 - Compile the executable program to generate the mesh.
 ```
 cd create_mesh
+mkdir build
 cd build
 cmake ../
 make
